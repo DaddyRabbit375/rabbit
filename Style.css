@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  align-content: center;   
+  justify-content: center;  
+  font-style: oblique;
+}
+
+h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 500;
+}
+
+.wrapper{
+    width: 420px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    background: #02013556;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+
+.textbox input{
+  height: 25%;
+  width: 100%;
+  background:"grey";
+  border:none;
+  outline:none;
+  border:2px solid rgba(255,255,255,.2);
+  border-radius:5px;
+  padding: 20px 45px 20px 20px;
+}
+
+.textbox i{
+  position: absolute;
+  right: 20px;
+  width: 20px;
+}
+
+.myLabel{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: start;
+}
